@@ -1,3 +1,5 @@
+# Write a Python Program using function to Sort Words in Alphabetic Order.
+
 list = ["Apple", "Orange", "Banana", "Kiwi"]
 for j in range(len(list)):
     for i in range(len(list) - 1):

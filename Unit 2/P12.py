@@ -1,3 +1,5 @@
+# Write a Python program to check whether a list contains a sublist.
+
 list1 = [1,2,3,4,5,2,2,3,2,4,1,8,9]
 list2 = [1,2,3,3,3,3,5,6,9,1,10,2,1]
 sub_list = [2,3,2]

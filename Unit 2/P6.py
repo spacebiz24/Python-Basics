@@ -1,3 +1,5 @@
+# Design and implement a program to count the number of vowels present in a given list of strings using ‘in’ or ‘not in’ operator.
+
 list = ["apple", "orange", "banana", "kiwi", "pear", "cherry"]
 dict = {
     "a":0,

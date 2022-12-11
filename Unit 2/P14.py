@@ -1,4 +1,4 @@
-# 1) Write a program which count and print the numbers of each character in a string input by console.
+# Write a program which count and print the numbers of each character in a string input by console.
 # Example:
 # If the following string is given as input to the program:
 # abcdeabc

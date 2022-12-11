@@ -1,3 +1,7 @@
+# Design and implement a program
+# 1) To prompt the user for hours ad rate per hour to compute gross pay
+# 2) To print the python version that is used.
+
 import sys
 
 rph = float(input("Enter the Rate per Hour: "))

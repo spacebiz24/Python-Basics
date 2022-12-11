@@ -1,3 +1,5 @@
+# Write a Python program to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers.
+
 n = int(input("Enter the limit of natural numbers: "))
 sqsum = 0
 sum = 0

@@ -1,3 +1,5 @@
+# Write a Python program to check a triangle is equilateral, isosceles or scalene.
+
 print("Triangle Type Definition")
 print("  /|")
 print("c/ |a")

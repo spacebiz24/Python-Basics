@@ -26,12 +26,62 @@ Expected Result : [[0, 0, 0, 0], [0, 1, 2, 3], [0, 2, 4, 6]]
 1. Write a Python program to find numbers between 100 and 400 (both included) where each digit of a number is an odd number. The numbers obtained should be printed in a comma-separated sequence
 1. Write a Python program that accepts a word from the user and reverse it.
 1. Write a Python program to find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included).
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
+1.  Write a Python program to construct the following pattern, using a nested for loop.
+    ```
+    *
+    * * 
+    * * * 
+    * * * * 
+    * * * * * 
+    * * * * 
+    * * * 
+    * * 
+    *
+    ```
+1. Write a Python program that allows the user to enter a four-digit binary number and displays its value in base 10. Each binary digit should be entered one per line, starting with the leftmost digit , as shown below.   
+Enter leftmost digit: 1     
+Enter the next digit: 0   
+Enter the next digit: 0   
+Enter the next digit: 1  
+The value is 9
+1. Write a Python program to check the validity of password input by users. Go to the editor 
+Validation :
+At least 1 letter between [a-z] and 1 letter between [A-Z].
+At least 1 number between [0-9].
+At least 1 character from [$#@].
+Minimum length 6 characters.
+Maximum length 16 characters
+1. Write a Python program to find numbers between 100 and 400 (both included) where each digit of a number is an even number. The numbers obtained should be printed in a comma-separated sequence
+1. Write a Python program that accepts a string and calculate the number of digits and letters.
+Sample Data : Python 3.2
+Expected Output :
+Letters 6 
+Digits 2
+1. Write a Python program to convert temperatures to and from celsius, fahrenheit. [ Formula : c/5 = f-32/9 [ where c = temperature in celsius and f = temperature in fahrenheit ] 
+Expected Output : 60°C is 140 in Fahrenheit.45°F is 7 in Celsius
+1. Write a Python program to count the number of even and odd numbers from a series of numbers.
+1. Write a Python program to check a string represent an integer or not.  
+Expected Output:
+Input a string:  
+Python  
+The string is not an integer.
+1. Write a Python program to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers.
+1. Write a Python program to convert a decimal number to binary number.
+1. Write a Python program to create the multiplication table (from 1 to 10) of a number.
+1. Write a Python program to construct the following pattern, using a nested loop number
+Expected Output:
+    ```
+    1
+    22
+    333
+    4444
+    55555
+    666666
+    7777777
+    ```
+1.  Write a Python program to get a single string from two given strings, separated by a space and swap the first two characters of each string.   
+Sample String : 'abc', 'xyz'   
+Expected Result : 'xyc abz'
+1. Write a Python program to get a string from a given string where all occurrences of its first char have been changed to '$', except the first char itself.  
+Sample String : 'restart'  
+Expected Result : 'resta$t'

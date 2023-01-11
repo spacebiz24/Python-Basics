@@ -1,27 +1,24 @@
-# A DNA sequence is a s tring made up of As, Ts, Cs, and Gs. Write a GUI application in which a DNA sequence is entered, and when the Count button is clicked, the number of As, Ts, Cs, and Gs are counted and displayed in the window.
+# When a value is entered in the text field and the Convert button is clicked, the value s hould be converted from Fahrenheit to Celsius and displayed in the window, as s hown in the image below.
 
 import tkinter as tk
 
 
-def index():
-    count = {}
-    for i in seq.get():
-        if i in count:
-            count[i] += 1
-        else:
-            count[i] = 1
-    disp.set(str(count))
+def F2C():
+    temp = (temp_f.get() - 32) * 5 / 9
+    temp_c.set(temp)
 
 
 window = tk.Tk()
-label1 = tk.Label(window, text="Enter DNA Sequence")
-label1.pack()
-seq = tk.StringVar()
-disp = tk.StringVar()
-textbox = tk.Entry(window, textvariable=seq)
-textbox.pack()
-button = tk.Button(window, text="Count", command=index)
-button.pack()
-label = tk.Label(window, textvariable=disp)
+label = tk.Label(window, text="Temperature in Fahrenheit")
 label.pack()
+temp_f = tk.DoubleVar()
+temp_c = tk.DoubleVar()
+textbox = tk.Entry(window, textvariable=temp_f)
+textbox.pack()
+printc = tk.Label(window, textvariable=temp_c)
+printc.pack()
+convert = tk.Button(window, text = "Convert", command = F2C)
+convert.pack()
+quit = tk.Button(window, text = "Quit", command = lambda: window.destroy())
+quit.pack()
 window.mainloop()

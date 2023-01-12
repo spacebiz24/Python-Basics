@@ -3,4 +3,4 @@ A few basic Python programs. You can download the code and run it on your local 
 
 Enjoy...
 ___
-Made with :heart: by [spacebiz24](https://github.com/spacebiz24)
+Made with :heart: by [spacebiz24](https://github.com/spacebiz24), [Eloquencere](https://github.com/Eloquencere) and vaishanth_bharadwaj
